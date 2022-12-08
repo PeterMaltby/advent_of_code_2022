@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
-pub fn day2() {
+pub fn day2_1() {
     let filename="day2/input.txt";
 
     let file = File::open(filename).unwrap();
@@ -38,7 +38,7 @@ pub fn day2() {
 
 
 //dont look at this its gross
-pub fn day2part2() {
+pub fn day2_2() {
     let filename="day2/input.txt";
 
     let file = File::open(filename).unwrap();

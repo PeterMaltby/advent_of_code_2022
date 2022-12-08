@@ -23,7 +23,7 @@ pub fn day1() {
 	}
 
         number_list.sort();
-        println!("{:?}", number_list);
+        println!("{}", number_list.last().unwrap());
         
         let last_three_sum :isize= number_list.iter().rev().take(3).sum();
         println!("{}",last_three_sum);

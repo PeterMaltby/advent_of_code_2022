@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::{BufRead, BufReader};
 use std::collections::HashSet;
 
-pub fn day3() {
+pub fn day3_1() {
 	let filename="day3/input.txt";
 	
 	let file = File::open(filename).unwrap();
