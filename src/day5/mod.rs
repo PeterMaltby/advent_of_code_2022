@@ -33,7 +33,9 @@ impl Stacks {
     }
 
     pub fn print(&self) {
-        println!("{:?}",self.stacks);
+        for stack in &self.stacks {
+            println!("{:?}",stack);
+        }
     }
 
     pub fn do_instruct(&mut self, from :usize, to :usize, num :usize)  {
