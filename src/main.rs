@@ -4,6 +4,7 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day8;
 
 use std::time::Instant;
 
@@ -59,5 +60,14 @@ fn main() {
     println!("execution took: {}ms",start.elapsed().as_micros());
     let start = Instant::now();
     day6::day6_2();
+    println!("execution took: {}ms",start.elapsed().as_micros());
+
+    println!("\nDAY 8");
+    //day eight solution
+    let start = Instant::now();
+    day8::day8_1();
+    println!("execution took: {}ms",start.elapsed().as_micros());
+    let start = Instant::now();
+    day8::day8_2();
     println!("execution took: {}ms",start.elapsed().as_micros());
 }
