@@ -74,8 +74,8 @@ fn main() {
     //day eight solution
     let start = Instant::now();
     day8::day8_1();
-    println!("execution took: {}ms",start.elapsed().as_micros());
+    println!("execution took: {}ms", start.elapsed().as_micros());
     let start = Instant::now();
     day8::day8_2();
-    println!("execution took: {}ms",start.elapsed().as_micros());
+    println!("execution took: {}ms", start.elapsed().as_micros());
 }
