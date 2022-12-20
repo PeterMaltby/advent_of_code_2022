@@ -72,7 +72,7 @@ pub fn day5_1() {
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
 
-    for (c, line) in reader.lines().enumerate() {
+    for line in reader.lines() {
         let line = line.unwrap();
 
         if line.len() > 4 {
@@ -101,7 +101,7 @@ pub fn day5_2() {
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
 
-    for (c, line) in reader.lines().enumerate() {
+    for line in reader.lines() {
         let line = line.unwrap();
 
         if line.len() > 4 {

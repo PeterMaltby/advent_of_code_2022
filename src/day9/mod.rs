@@ -90,7 +90,6 @@ pub fn day9_2() {
                 }
             }
 
-            let tmp = rope[9];
             t_positions.insert((rope[9].0,rope[9].1));
         }
 

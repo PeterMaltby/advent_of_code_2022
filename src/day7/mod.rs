@@ -12,7 +12,8 @@ pub struct Directory {
 }
 
 impl Directory {
-    fn print(&self) {
+// this is a testing fucntion but rust complains when i complile and done uese it which is a bit annoting is there a work around i wonder?
+/*    fn print(&self) {
         
         println!("{} dir {} {{",self.name,self.du() );
         println!("{:?}",self.files.borrow());
@@ -21,7 +22,7 @@ impl Directory {
         }
         println!("}}-----------");
         
-    }
+    } */
 
     fn du(&self) -> u32 {
         let mut tmp_size = self.files.borrow().values().sum();

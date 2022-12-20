@@ -15,7 +15,10 @@ fn main() {
     println!("DAY 1");
     //day one solution
     let start = Instant::now();
-    day1::day1();
+    day1::day1_1();
+    println!("execution took: {}ms", start.elapsed().as_micros());
+    let start = Instant::now();
+    day1::day1_2();
     println!("execution took: {}ms", start.elapsed().as_micros());
 
     println!("\nDAY 2");
